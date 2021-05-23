@@ -12,16 +12,16 @@ nav:
   #   - Page 1: section/page-1.md
   - Get Started: 
     - Arquitetura & Estrutura de projeto: get_started/arq_est.md 
-    - Trabalhando com modulos: get_started/modulos.md 
+    - Trabalhando com modulos: get_started/arq_est.md
       # - Teste: teste.md
   - Instruções Dev-Kit:
-    - Instruções Dev-Kit: null.md
+    - Instruções Dev-Kit: get_started/arq_est.md
   - Autenticação:
-    - Autenticação: null.md
+    - Autenticação: get_started/arq_est.md
   - Trabalhando com listas:
-    - Trabalhando com listas: null.md
+    - Trabalhando com listas: get_started/arq_est.md
   - Softwares and tools:
-    - Softwares and tools: null.md
+    - Softwares and tools: get_started/arq_est.md
 
 theme:
   name: null
