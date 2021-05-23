@@ -1,0 +1,51 @@
+site_name: Guia de desenvolvimento mobile
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+extra_css:
+  - stylesheets/extra.css 
+
+nav:
+  # - Section:
+  #   - section/index.md
+  #   - Page 1: section/page-1.md
+  - Get Started: 
+    - Arquitetura & Estrutura de projeto: get_started/arq_est.md 
+    - Trabalhando com modulos: get_started/modulos.md 
+      # - Teste: teste.md
+  - Instruções Dev-Kit:
+    - Instruções Dev-Kit: null.md
+  - Autenticação:
+    - Autenticação: null.md
+  - Trabalhando com listas:
+    - Trabalhando com listas: null.md
+  - Softwares and tools:
+    - Softwares and tools: null.md
+
+theme:
+  name: null
+  custom_dir: mkdocs-material/material
+
+  palette:
+    primary: red
+
+  # features:
+  #   - navigation.expand
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Necessary for search to work properly
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
