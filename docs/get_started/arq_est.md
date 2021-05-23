@@ -8,6 +8,8 @@ Visão geral da arquitetura de um projeto mobile:
 
 ****** AQUI VAI A IMAGEM DA ARQUITETURA 
 
+
+<!--================================================================ APP/ ================================================================-->
 ## App/
 <!-- --- -->
 
@@ -19,6 +21,9 @@ Estrutura da pasta app/ de forma resumida:
 2. **app.controller.dart -** Camada controller do aplicativo, responsável por disponibilizar a regra de negócios referente a aplicação. 
 3. **modulos/  -** 
 
+
+<!--============================================================ APP.VIEW.DART ============================================================-->
+
 ### **1. app.view.dart**
 
 Camada visual da aplicação. 
@@ -26,6 +31,10 @@ Camada visual da aplicação.
 <!-- #### **teste**
 
 #### **teste** -->
+
+
+<!--========================================================= APP.CONTROLLER.DART =========================================================-->
+
 
 ### **2. app.controller.dart**
 
@@ -57,13 +66,15 @@ class AppController extends CustomAppController {
 }
 ```
 
-| Tables   |      Are      |  Cool |
+<!-- | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
 | col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| col 3 is | right-aligned |    $1 | -->
 
-<!--  -->
+
+<!--========================================================= MODULOS =========================================================-->
+
 
 ### **3. modulos/**
 
